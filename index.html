@@ -13,6 +13,182 @@
     </header>
     <main>
       <!-- Student code goes here -->
+      
+      <section class="card" id="html-section"> 
+        <h2>HTML</h2>
+        <ul>
+          <li>!DOCTYPE - a declaration that tells the browser what type of document it should expect when its opened</li>
+          <li>The opening tag represents the start of a HTML document. Inside the tag is the attribute lang="" which informs the browser what language the web page will be in</li>
+          <li>The 'head' element contains metadata  for a web application. It includes tags such as: </li>
+          <ul>
+            <li>style - element defines css styles associated with a website</li>
+            <li>base - element that defines the base URL for a web page</li>
+            <li>link - an element that connects an external resource to the HTML doc</li>
+            <li>script - an element thtat embeds client-side scripts into the HTML doc</li>
+          </ul>
+          <li>The title element defines the title for the webpage. It is a required and extremely important element for SEO (Search Engine Optimization.) It is contained in the head element.</li>
+          <li>The viewport element sets the default view for a webpage and makes for a better viewing experience on multiple different devices. It is also contained in the head element.</li>
+          <li>Meta elements define metadata about a HTML document. It is also inside the head element. Some meta attributes include:</li>
+          <ul>
+            <li>charset - specifies character encoding for a HTML document</li>
+            <li>content - specifies the value associated with the http-equiv or name attributes</li>
+            <li>http-equiv - provides an HTTP header for the information/value of a content attribute</li>
+          </ul>
+          <li>The body element defines the body of  HTML document. It contains content that is visible to the user and all conent to be viewed by a user must be in the body element. These notes are currently in the body element.</li>
+          <li>Headers h1 to h6 are representative of the level of heading for a textblock. The headers for each section of note at h2. Headers must always be put in order from h1 to h6 and there should only be one h1 for each web page.</li>
+          <li>The p represents a paragraph or block of text in a HTML document.</li>
+          <li>The elements ul ol and li are used to make different types of lists. The ul is used for unordered lists and the items are listed with the li tag. These notes are an example of an unordered list. The ol tag stand for ordered list and also uses the tag li to list items.</li>
+          <li>The alt attribute can be used to describe an image on a web page for screen readers and greater SEO.</li>
+          <li>The img element is used to display images on a web page. It is used by containing information about images using the attribute src.  The src attribute holds its importance by defining the location of an image to be displayed.</li>
+          <li>The br is a tag that contains an empty space or a line break between two blocks of text.</li>
+          <li>The a element stands for anchor and it is used in combination with the href attribute to create links to the same or different web pages. It is used in the format a = hrek"link would be here" with the name for the link here between open and closing brackets.</li>
+          <li>A section is what we are in right now! More specfically it is a semantic element the defines a section of a document that contains thematic content. Our current "theme" is HTML notes!</li>
+          <li>The id attribute is used in a HTML document to identify and select certain elements. This becomes important when CSS is added to a web page.</li>
+          <li>The footer element contains information at the bottom of a web page. This can include copyright, author, contact information, a sitemap and navigation.</li>
+          <li>Other mentions:</li>
+          <ul>
+            <li>Semantic HTML elements are elements that make it easier to read a HTML document. They are important because the ease of reading is necessary for the collaborative nature of coding. Using semantic elements also impacts how accessible a site is to the broadest variety of users accessing it. It is considered best practice to use semantic elements wherever possible.</li>
+            <li>Elements vs tags. An element includes everthing from the opening and closing tag whereas a tag only refers to the information contained between angle brackets. The two terms are still often used interchangeably.</li>
+            <li>Element descriptors. Elements that are nested inside other elements (an example being meta elements inside the head tag) are called child elements while the element they are nested in is called a parent element.</li>
+          </ul>
+        </ul>
+      </section>
+      <section class="card" id="css-section">
+        <h2>CSS</h2>
+        <ul>
+          <li>css notes go here</li>
+        </ul>
+      </section>
+      <section class="card" id="git-section">
+        <h2>Git</h2>
+        <ul>
+          <li>Version Control: Allows tracking and mangement of changes made to a codebase. Whenever an version is saved with version control it is assigned a SHA or hash identifier which allows a record of changes made to be kept and also be accessible if reverting to an older version of the code is necessary. Only the first 7 numbers need to be typed out for a devloper to access a previous version which saves time that would be spent typing out the entire thing.</li>
+          <li>Git revert can be used to revert to a previous version of code. Can keep track locally.</li>
+          <li>Git - a version control system that allows managing and keeping track of each version of code of a project possible. Git is access in the command line through Git Bash. Git commands always start with 'git'. Using git commands make creating a repository, adding code to the repository and view different versions of code possible with each version of code stored in a unique commit.</li>
+          <li>GitHub - a cloud-based hosting service that allows for keeping track of repositories that are stored remotely. It also allows for collaboration to take place which is fundamental to how most coding works in practice. There are other git-based hosting repositories as well including BitBucket and SourceForge. The advantage of cloud based models is allowign multiple people to work to make separate changes to a program at the same time without conflicting issues.</li>
+          <li>Repository - A project on github is called a repository, this is where all the work that is made on the code including past versions is stored. More specfically, what is stored in a repo:</li>
+          <ul>
+            <li>files that contain code</li>
+            <li>files that contain other information about the code(ex. README file)</li>
+            <li>the version history for all the files in the repo</li>
+            <li>a licensing agreement</li>
+          </ul>
+          <li>Branch - A workspace where changes that don't affect the live site can be made. Making a new branch to store new work made to the code is best practice and should be the start to any new changes made.</li>
+          <li>Markdown(.md) - This is how content files are formatted on Github; it is a way to write for the web using plain text and it converts easily to HTML. Markdown files are marked with the .md file extension.</li>
+          <li>Commit changes - Saving a new version of a file that is being worked on. Whenever a file is added, edited or deleted a commit is made. It adds changes to the branch currently being worked in and is part of the pull request process.</li>
+          <li>Pull request(PR) - Asking for changes that have been made in one branch to merge into another branch and is a way to share, discuss and review changes made on the project. In detail the pull request process follows these steps:</li>
+          <ol>
+            <li>watch video again and put steps here</li>
+          </ol>
+          <li>Merge - When a PR is approved changes are "pulled" or merged into the main branch. When this occurs the changes made will become a part of the live site.</li>
+          <li>Issues - A way to report new tasks or content fixes. Issues are used to track progress on a project, it is best practice to open a issue for a new task and close issues as they are completed. Git issues allow for:</li>
+          <ul>
+            <li>track, organize, and communicate ideas, task, bugs and enhancements</li>
+            <li>identify bottlenecks or blockers that could prevent progress</li>
+            <li>avoid duplication by assigning tasks</li>
+          </ul>
+          <li>Git Workflow - </li>
+          <ol>
+            <li>Creating a new branch: Make a content change on new branch that is the up to date with the main branch to keep from creating issues when merging</li>
+            <ul>
+              <li>Adding commits</li>
+            </ul>
+            <li>Open a pull Rrquest: Content changes are reviewed by others or on your own if its a solo project; when working with other people assigning someone to review the content changes and approve the pull request</li>
+            <ul>
+              <li>Discuss and review</li>
+            </ul>
+            <li>Merge and deploy: Content changes are approved and merging from the new branch into the main branch occurs. Preview on site to double check.</li>
+            <ul>
+              <li>Publish</li>
+            </ul>
+          </ol>
+          <li>Tools in Editorial Process:</li>
+          <ol>
+            <li>Assigning - Github issues/Projects</li>
+            <li>Writing and Editing - Word/Google docs</li>
+            <li>Producing - Github/Github Desktop, Markdown text editor</li>
+            <li>Publishing - Github/Federalist</li>
+            <li>Revising(in Github) - Github, Markdown Text Editor</li>
+          </ol>
+          <li>Set up:</li>
+          <ul>
+            <li>git config --global user.name "[username]" - </li>
+            <li>git config --global user.email "[user email]"</li>
+            <li>git config --global color.ui auto</li>
+          </ul>
+          <li>Initialization</li>
+          <ul>
+            <li>git init</li>
+            <li>git clone [url]</li>
+          </ul>
+          <li>Stage and Snapshot</li>
+          <ul>
+            <li>git status</li>
+            <li>git add [file]</li>
+            <li>git reset [file]</li>
+            <li>git diff</li>
+            <li>git diff --staged</li>
+            <li>git commit -m "[descriptive message]"</li>
+          </ul>
+          <li>Branching and Merging</li>
+          <ul>
+            <li>git branch</li>
+            <li>git branch [branch-name]</li>
+            <li>git checkout</li>
+            <li>git merge [branch]</li>
+            <li>git log</li>
+          </ul>
+          <li>Inspect and Compare</li>
+          <ul>
+            <li>git log</li>
+            <li>git log branchB . . branchA</li>
+            <li>git log --follow [file]</li>
+            <li>git diff branchB . . . branchA</li>
+            <li>git show [SHA]</li>
+          </ul>
+          <li>Tracking Path Changes</li>
+          <ul>
+            <li>git rm [file]</li>
+            <li>git mv [existing-path] [new-path]</li>
+          </ul>
+          <li>Ignoring Patterns</li>
+          <ul>
+            <li>logs/
+              *.notes
+              pattern*/
+            </li>
+            <li>git config --global core.excludesfile [file]</li>
+          </ul>
+          <li>Share and Update</li>
+          <ul>
+            <li>git remote add [alias] [url]</li>
+            <li>git fetch [alias]</li>
+            <li>git merge [alias]/[branch]</li>
+            <li>git push [alias] [branch]</li>
+            <li>git pull</li>
+          </ul>
+          <li>Rewrite History</li>
+          <ul>
+            <li>git rebase [branch]</li>
+            <li>git reset --hard [commit]</li>
+          </ul>
+          <li>Temporary Commits</li>
+          <ul>
+            <li>git stash</li>
+            <li>git stash list</li>
+            <li>git stash pop</li>
+            <li>git stash drop</li>
+          </ul>
+
+        </ul>
+      </section>
+      <section class="card" id="javascript-section">
+        <h2>JavaScript</h2>
+        <ul>
+          <li>js notes go here</li>
+        </ul>
+      </section>
+  
     </main>
 
     <footer>
