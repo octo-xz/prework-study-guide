@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Prework Study Guide</title>
+    <link rel="stylesheet" href="./assets/style.css"
   </head>
   <body>
     <header id="header">
@@ -56,7 +57,18 @@
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>css notes go here</li>
+          <li>Three types of CSS style sheets:</li>
+          <ul>
+            <li>Inline CSS - put directly into an HTML file. Customizes elements by each individual tag and can only be edited individually. Is used by using the style tag.</li>
+            <li>Internal CSS - put directly in an HTML file in the head element. Also edits each element individually. Changes made to a specfic tag make changes to all tags on that name. For example if the h1 tag was assigned the color red, every h1 tag would become red.</li>
+            <li>External CSS - is put in a separate sheet that is linked to the HTML file using the link element; link rel="stylesheet" href=" name of the style file is usually just style.css" this method is the most common when to use CSS styling elements which follows the separation of concerns model. there are a few main components to external CSS:</li>
+            <ul>
+              <li>selector - chooses which element are being selected for styling. * selector is used to apply a change to the entire page.</li>
+              <li>declaration - a statement with two parts; property: value and if there are multiple declarations for one selector all of the declarations are referred to as a declaration block. Property is what we want to apply to the value. An example is color: blue. We want to assign the value 'blue' to the property 'color'</li>
+            </ul>
+            <li>CSS Box Model - every element within an HTML document is contained within a box. Each box has margins which are not visible on the outside of an element, a border which goes around the element, padding which is between the content(which is the final box) and the border. We can utilize and customize these boxes using CSS</li>
+            <li>Class attributes can be assigned in the HTML file to certain elements and can be set as a selector which is then customized with declarations in CSS</li>
+          </ul>
         </ul>
       </section>
       <section class="card" id="git-section">
