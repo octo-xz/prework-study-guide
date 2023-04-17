@@ -37,7 +37,7 @@ footer {
    .card {
     
     width: 80%;
-    margin: 40px;
+    margin: 40px auto;
     border: 5px solid  #5cabed ;
     box-shadow: 5px 10px #1b1980;
    }
